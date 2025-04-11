@@ -80,28 +80,28 @@ Routes API
 
 - Créer un produit
 
-json
-POST /api/produits
-Content-Type: application/json
+    json
+    POST /api/produits
+    Content-Type: application/json
 
-{
-  "nom": "Produit de test",
-  "description": "Description du produit",
-  "prix": inserer le prix sans guillemets
-}
+    {
+        "nom": "Produit de test",
+        "description": "Description du produit",
+        "prix": inserer le prix sans guillemets
+    }
 
 - Créer un mouvement
 
-json
-POST /api/mouvements 
-Content-Type: application/json
+    json
+    POST /api/mouvements 
+    Content-Type: application/json
 
-{
-  "produit_id": 1,
-  "type": "entree",
-  "quantite": 10,
-  "date_mouvement": "2025-04-11"
-}
+    {
+        "produit_id": 1,
+        "type": "entree",
+        "quantite": 10,
+        "date_mouvement": "2025-04-11"
+    }
 
 - Vérifier le stock disponible
 
